@@ -1,4 +1,4 @@
-# PoliSAM-
+# Software Engineering Project-PoliSAM
 This repository contains all the required documentation for the software engineering Web-App project
 that we have developed: The Polimi Study-Area Manager (PoliSAM).
 The documentation consists of 4 separate documents: 
