@@ -3,7 +3,7 @@ This repository contains all the required documentation for the software enginee
 that we have developed: The Polimi Study-Area Manager (PoliSAM).
 The documentation consists of 4 separate documents: 
 - A Feasibility Study Document (FSD)
-- A Software Requirements Specification Document (RASD)
+- A Requirements Analysis and Specification Document (RASD)
 - A Software Design Document (SDD)
 - A Software Testing Document (STD)
 ## Prepared for:
