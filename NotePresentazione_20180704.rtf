@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19640\viewh12280\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Did you think about providing incentives to users to correctly check-in/check-out? They did, they could not come up with something meaningful\
+Can you walk me through your implementation and explain the various parts to me?\
+Can you also show a history of your development?\
+Explain to me the principles behind bubble. Programming languages are harder, but they allow you to do \'93anything\'94. What are the limitations of these platforms? What if you wanted to extend the application with a mechanism that automatically detects people entering in classrooms? Can you connect to devices?\
+Can you complicated algorithms, for example to mine data, or provide suggestions? (there is some answer on this in the requirements document) There are plugins, these things could be done through plugins.\
+\
+You mention an online study in the feasibility study: how did you conduct it? How many people answered?\
+\
+The application provides status, but can it provide suggestions? No, it can\'92t, but you could run plugins.\
+It looks like you focused on very basic requirements, very simple ones, you could have elaborated more on them.\
+\
+Does Bubble really allow you to address scalability and efficiency?\
+\
+P.4 of your SDD: It looks like you have to insert credentials twice to access the application, when you sign up the first time.\
+From your State diagram it looks like while you are checked in you cannot do anything until you check out again. 
+\i However, the test document seems to show a case where indeed you can do stuff while checked in (p.8)
+\i0 \
+Does the data in the DB match the concepts defined in the class diagram?\
+On p.23 of your SDD it looks like you use Google Maps to determine the room in which the user is checking in/out, is that true? That would be very coarse.\
+p.9 of test document: why is check out failing? Is it because you are trying to checkout from a room you are not in? Then, why do you need to indicate the room for the checkout?\
+\
+\
+Why would you need POLIMI to run the application on its infrastructure?\
+How did the class diagram influence the implementation?\
+You mention that every component is defined and tested separately, but what are your components?\
+You allow for check-in/check-out, but even if all your users behave conscientiously, not all students in the room will be restored, so how do you get an accurate picture of the level of occupation?\
+So you detect that the room is used for a claw because it is empty? That\'92s a bit strange\
+\
+Your design is pretty much a description of the implementation.\
+\
+I do not think Software Engineers should be the target of tests\
+Essentially you application can leak a bunch of information through the errors (e.g., whether a user already exists, and so on).\
+So, the chat, it shows messages to all people checked in the same room?\
+\
+\
+\
+\
+Suggested grade: 28 (work a bit more to get to something more)}
